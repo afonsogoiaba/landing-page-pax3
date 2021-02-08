@@ -18,7 +18,7 @@ body{
   width: 230px;
   margin: 0 auto;
   position: absolute;
-  left: 60px;
+  left: 25px;
   margin-left: 50px;
 }
 
@@ -164,12 +164,15 @@ body{
   justify-content: center;
   margin-top: 20px;
   padding-bottom: 20px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .wrap-esp span{
   display: block;
   border-radius: 5px;
-  width: 200px;
+  width: 150px;
+  text-align: center;
   font-size: 0.9rem;
   font-weight: 700;
   color: rgba(0,0,0,0.8);
