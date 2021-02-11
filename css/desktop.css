@@ -6,15 +6,17 @@ body{
 
 .home{
   height: 100vh;
-  background: url('../img/impuls.png') no-repeat center center;
+  background: url('../img/clinica.png') no-repeat center center;
+  background-size: cover;
   display: flex;
   position: relative;
-  align-items: center;
+  align-items: flex-start;
   border-left: solid 15px #f0e50a;
 }
 
 .home img{
   width: 400px;
+  margin-top: 50px;
   margin-left: 50px;
 }
 
@@ -95,15 +97,14 @@ body{
   background: #006b33;
   background-size: cover;
   position: relative;
-  height: 100%;
-  background: url('../img/clinica3.png') no-repeat center center fixed;
+  background: url('../img/impuls.png') no-repeat center center fixed;
   background-size: cover;
   filter: contrast(90%);
 }
 
 .content-all-esp{
   position: relative;
-  height: 90vh;
+  height: 100vh;
 }
 
 .text-espaco{
