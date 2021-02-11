@@ -10,7 +10,7 @@ body{
   background: url('../img/impuls2.png') no-repeat center center;
   display: flex;
   position: relative;
-  align-items: center;
+  align-items: flex-start;
   border-left: solid 15px #f0e50a;
 }
 
@@ -21,6 +21,83 @@ body{
   left: 0;
   right: 0;
 }
+
+.home img{
+  width: 220px;
+  margin-top: 10px;
+  margin-left: 50px;
+  padding: 1rem;
+  background: rgba(0,0,0,0.04);
+}
+
+.home form{
+  /* padding: 0.5rem; */
+  width: 300px;
+  /* position: absolute; */
+  left: 10px;
+  bottom: 70px;
+  display: block;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+
+  display: none;
+  background: white;
+  box-shadow: 0px 3px 7px rgba(0,0,0,0.72);
+}
+
+.home form p{
+  display: block;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.9);
+  text-align: center;
+  font-size: 1rem;
+  width: 100%;
+  background: #006b33;
+  margin-bottom: 10px;
+}
+
+.home .container-entrada{
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+}
+
+.home .container-entrada input[type="submit"]{
+  width: 160px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  background: #f0e50a;
+  color: rgba(0,0,0,0.9);
+  box-shadow: 1px 2px 4px rgba(0,0,0,0.22);  
+}
+
+.container-check{
+  display: flex;
+  padding: 0.5rem;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 20px;
+}
+
+.check{
+  display: flex;
+  display: block;
+  margin: 5px;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.check input[type="checkbox"]{
+  margin-right: 5px;
+}
+
 
 .home span{
   display: block;
@@ -98,8 +175,8 @@ body{
   background-size: cover;
   position: relative;
   height: 100%;
-  background: url('../img/clinica3.png') no-repeat center center fixed;
-  background-size: cover;
+  background: url('../img/impuls1.png') no-repeat center center fixed;
+  background-size: contain;
   filter: contrast(90%);
 }
 
